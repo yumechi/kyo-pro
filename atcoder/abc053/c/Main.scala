@@ -11,7 +11,7 @@ object Main extends App {
   val m = (t == 0, t <= 6) match {
     case (true, _) => 0
     case (false, true) => 1
-    case (_, _) => 2
+    case _ => 2
   }
   println(ans + m)
 }
