@@ -1,6 +1,7 @@
 import java.util.Scanner
 
 object Main extends App {
+  // なんかもう少しうまく書ける気がする（ Array の操作回りもう少しうまくできる気がする）
   def calc(ar: Array[Int], w: Int): Array[String] = {
     if(ar.length > w) {
       val f = ar.splitAt(w)
